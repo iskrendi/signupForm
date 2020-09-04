@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e1fe0d3-64a7-4858-a198-943eb4629890" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/util.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forms/SignUpForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/forms/SignUpForm.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/forms/SignUpForm.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+            <state relative-caret-position="157">
+              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -89,13 +87,13 @@
       <find>onFocus</find>
       <find>FormHeading</find>
       <find>ticketingSystems</find>
-      <find>isValid</find>
       <find>checkForErrors</find>
       <find>loading</find>
       <find>setupdateForm</find>
       <find>setUpdateForm</find>
       <find>width</find>
       <find>handleSubmit</find>
+      <find>isValid</find>
     </findStrings>
     <replaceStrings>
       <replace>handleSet</replace>
@@ -249,11 +247,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84085000" />
+    <option name="totallyTimeSpent" value="86272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="796" y="23" width="1124" height="1105" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21849501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -395,8 +392,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/forms/SignUpForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+        <state relative-caret-position="157">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
