@@ -1,21 +1,24 @@
+# Sign-up Form
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How to Install and Scripts
 
-In the project directory, you can run:
+Go to the project directory and build the project if this is the first time running it:
+
+### `yarn install`
+ 
+If already completed install step you can run the app in the development mode:
 
 ### `yarn start`
 
-Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+The page will reload if you make edits. You will also see any lint errors in the console.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
@@ -37,32 +40,35 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Form information
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Content
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The form has the following fields:
 
-### Code Splitting
+#### Business Name
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- a required text input, which will show an error if empty   
 
-### Analyzing the Bundle Size
+#### Business Website
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- a required text input, which will show an error if empty
 
-### Making a Progressive Web App
+#### Ticketing System
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Is a required select dropdown menu, which will show error if no selection   
 
-### Advanced Configuration
+#### Email
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- a required email input, which will show an error if empty and will perform basic email check
 
-### Deployment
+#### Password
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+- a required password input, with hidden text which will show an error if empty
 
-### `yarn build` fails to minify
+#### Accept Terms
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- a required checkbox, which will show message to select if not selected
+
+
+
