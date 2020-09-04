@@ -20,10 +20,10 @@ const SignUpFrom = () => {
     //TODO handler to commit changes with server
   };
 
-  const isValid = key => (!!content[key]);
+  const isNotValid = key => (!content[key]);
 
   const formHasErrors = () => formInputFieldsData.some(
-    (input) => !isValid(input.key)
+    input => isNotValid(input.key)
   );
 
   useEffect(() => {
@@ -51,7 +51,7 @@ const SignUpFrom = () => {
             options={input.options}
             errorMsg={input.error}
             handleChange={input.onSet}
-            hasError={!isValid(input.key) && content.hasErrors}
+            hasError={isNotValid(input.key) && content.hasErrors}
           />
         ))}
       </div>
